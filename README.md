@@ -11,7 +11,7 @@
 
 ## Project Structure
 
-````Worldwise/
+```Worldwise/
 │
 ├── public/ # Public directory
 ├── src/ # Source code directory
@@ -22,11 +22,15 @@
 │ └── index.js # Application entry point
 │
 ├── package.json # Project dependencies and scripts
-└── README.md # Project documentation```
+└── README.md # Project documentation
+```
 
 ## Technologies Used
 
 - **React**: Frontend JavaScript library for building user interfaces.
 - **CSS Modules**: For scoped and modular CSS styling.
 - **JSON**: Used to manage city data.
-````
+
+## Using the Fake API
+
+To run the application, use the fake API provided by `json-server`. Make sure to run it on port **4000** to fetch city data properly.
